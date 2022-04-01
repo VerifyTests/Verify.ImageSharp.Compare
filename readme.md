@@ -3,7 +3,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/5xbq2gu1qh383r16?svg=true)](https://ci.appveyor.com/project/SimonCropp/Verify-ImageSharp-Compare)
 [![NuGet Status](https://img.shields.io/nuget/v/Verify.ImageSharp.Compare.svg)](https://www.nuget.org/packages/Verify.ImageSharp.Compare/)
 
-Extends [Verify](https://github.com/VerifyTests/Verify) to allow comparison of images via [ImageSharp.Compare](https://github.com/Codeuctivity/ImageSharp.Compare).
+Extends [Verify](https://github.com/VerifyTests/Verify) to allow comparison of images via [Codeuctivity.ImageSharp.Compare](https://github.com/Codeuctivity/ImageSharp.Compare).
 
 Contains [comparers](https://github.com/VerifyTests/Verify/blob/master/docs/comparer.md) for png, jpg, and bmp.
 
