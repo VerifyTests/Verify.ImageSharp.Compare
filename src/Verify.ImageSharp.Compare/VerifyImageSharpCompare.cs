@@ -54,7 +54,7 @@ public static class VerifyImageSharpCompare
             return Task.FromResult(CompareResult.Equal);
         }
 
-        return Task.FromResult(CompareResult.NotEqual($@"similarity({absoluteError}) < threshold({threshold}).
+        return Task.FromResult(CompareResult.NotEqual($@"similarity({absoluteError}) > threshold({threshold}).
 If this difference is acceptable, use:
 
  * Globally: VerifyImageSharpCompare.RegisterComparers({absoluteError});
