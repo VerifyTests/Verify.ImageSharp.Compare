@@ -12,7 +12,7 @@ NotEqual:
 
 Received: Tests.FailingCompareInner.received.jpg
 Verified: Tests.FailingCompareInner.verified.jpg
-Compare Result: Dimension of images differ
+Compare Result: Size of images differ.
 
 
 }
