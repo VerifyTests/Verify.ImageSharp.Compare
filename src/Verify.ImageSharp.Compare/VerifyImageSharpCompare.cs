@@ -6,11 +6,20 @@ namespace VerifyTests;
 
 public static class VerifyImageSharpCompare
 {
+    public static bool Initialized { get; private set; }
+
     /// <summary>
     /// Helper method that calls <see cref="RegisterComparers"/>(threshold = 95, new DifferenceHash()) for png, bmp, and jpg.
     /// </summary>
     public static void Initialize()
     {
+        if (Initialized)
+        {
+            throw new("Already Initialized");
+        }
+
+        Initialized = true;
+
         InnerVerifier.ThrowIfVerifyHasBeenRun();
         RegisterComparers();
     }
