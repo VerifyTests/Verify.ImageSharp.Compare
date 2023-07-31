@@ -6,7 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Argon" Version="0.7.2" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.0.1" />
-    <PackageReference Include="Codeuctivity.ImageSharpCompare" Version="3.0.165" />
+    <PackageReference Include="Codeuctivity.ImageSharpCompare" Version="3.0.175" />
     <PackageReference Include="Polyfill" Version="1.24.1" PrivateAssets="all" />
     <PackageReference Include="ProjectDefaults" Version="1.0.91" PrivateAssets="all" />
     <PackageReference Include="Verify" Version="20.6.0" />
