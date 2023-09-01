@@ -47,7 +47,7 @@ public Task CompareImage() =>
 All comparers can be registered:
 
 ```
-VerifyImageHash.RegisterComparers();
+VerifyImageSharpCompare.RegisterComparers();
 ```
 
 
