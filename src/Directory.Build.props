@@ -4,6 +4,7 @@
     <NoWarn>CS1591;CS0649</NoWarn>
     <Version>3.0.0</Version>
     <AssemblyVersion>1.0.0</AssemblyVersion>
+    <LangVersion>preview</LangVersion>
     <ImplicitUsings>enable</ImplicitUsings>
     <PackageTags>ImageSharp, Verify</PackageTags>
     <Description>Extends Verify (https://github.com/VerifyTests/Verify) to allow verification via Codeuctivity.ImageSharp.Compare (https://github.com/Codeuctivity/ImageSharp.Compare).</Description>
