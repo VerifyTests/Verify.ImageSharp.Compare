@@ -8,6 +8,8 @@ Extends [Verify](https://github.com/VerifyTests/Verify) to allow comparison of i
 
 Contains [comparers](https://github.com/VerifyTests/Verify/blob/master/docs/comparer.md) for png, jpg, and bmp.
 
+**See [Milestones](../../milestones?state=closed) for release notes.**
+
 
 ## NuGet package
 
