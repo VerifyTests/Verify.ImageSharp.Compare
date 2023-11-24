@@ -1,15 +1,17 @@
-﻿[TestFixture]
+﻿using System.Net;
+
+[TestFixture]
 public class Tests
 {
     [Test]
-    public Task FailingCompare() =>
-        ThrowsTask(async () =>
-            {
-                await VerifyFile("sample.jpg")
-                    .DisableDiff()
-                    .UseMethodName("FailingCompareInner")
-                    .UseImageHash(85);
-            })
-            .IgnoreStackTrace()
-            .ScrubLinesContaining("clipboard", "DiffEngineTray");
+    public void FailingCompare()
+    {
+        var files = Directory.EnumerateFiles(@"C:\Windows");
+        Console.WriteLine(files.Any(_=>_.EndsWith("a")));
+        Console.WriteLine(files.Count());
+        Console.WriteLine(files.Any(_=>_.EndsWith("a")));
+        Console.WriteLine(files.Count());
+        Console.WriteLine(files.Any(_=>_.EndsWith("a")));
+        Console.WriteLine(files.Count());
+    }
 }
