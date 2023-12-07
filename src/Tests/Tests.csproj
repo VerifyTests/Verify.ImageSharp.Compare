@@ -5,15 +5,15 @@
     <SignAssembly>False</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Argon" Version="0.13.0" />
-    <PackageReference Include="MarkdownSnippets.MsBuild" Version="25.1.0" PrivateAssets="all" />
-    <PackageReference Include="NUnit" Version="4.0.0" />
+    <PackageReference Include="Argon" Version="0.14.0" />
+    <PackageReference Include="MarkdownSnippets.MsBuild" Version="26.0.0" PrivateAssets="all" />
+    <PackageReference Include="NUnit" Version="4.0.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.5.0" />
-    <PackageReference Include="Verify.NUnit" Version="22.6.0" />
+    <PackageReference Include="Verify.NUnit" Version="22.8.0" />
     <PackageReference Include="Verify.DiffPlex" Version="2.3.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
     <ProjectReference Include="..\Verify.ImageSharp.Compare\Verify.ImageSharp.Compare.csproj" />
-    <PackageReference Include="ProjectDefaults" Version="1.0.102" PrivateAssets="all" />
+    <PackageReference Include="ProjectDefaults" Version="1.0.106" PrivateAssets="all" />
     <None Update="sample.*">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
