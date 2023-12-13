@@ -1,6 +1,4 @@
-﻿using Codeuctivity.ImageSharpCompare;
-
-namespace VerifyTests;
+﻿namespace VerifyTests;
 
 public static class VerifyImageSharpCompare
 {
@@ -65,12 +63,13 @@ public static class VerifyImageSharpCompare
             return Task.FromResult(CompareResult.Equal);
         }
 
-        return Task.FromResult(CompareResult.NotEqual($"""
-            similarity({absoluteError}) > threshold({threshold}).
-            If this difference is acceptable, use:
-            
-             * Globally: VerifyImageSharpCompare.RegisterComparers({absoluteError});
-             * For one test: Verifier.VerifyFile("file.jpg").UseImageHash({absoluteError});
-            """));
+        return Task.FromResult(CompareResult.NotEqual(
+            $"""
+             similarity({absoluteError}) > threshold({threshold}).
+             If this difference is acceptable, use:
+
+              * Globally: VerifyImageSharpCompare.RegisterComparers({absoluteError});
+              * For one test: Verifier.VerifyFile("file.jpg").UseImageHash({absoluteError});
+             """));
     }
 }
