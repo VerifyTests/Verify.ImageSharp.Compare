@@ -9,6 +9,6 @@
     <PackageReference Include="Codeuctivity.ImageSharpCompare" Version="4.0.234" />
     <PackageReference Include="Polyfill" Version="2.1.0" PrivateAssets="all" />
     <PackageReference Include="ProjectDefaults" Version="1.0.109" PrivateAssets="all" />
-    <PackageReference Include="Verify" Version="23.0.1" />
+    <PackageReference Include="Verify" Version="23.1.0" />
   </ItemGroup>
 </Project>
