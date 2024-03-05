@@ -2,7 +2,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <SignAssembly>False</SignAssembly>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Argon" Version="0.17.0" />
