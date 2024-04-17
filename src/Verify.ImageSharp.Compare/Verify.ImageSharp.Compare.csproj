@@ -5,7 +5,7 @@
   <ItemGroup>
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.4" />
     <PackageReference Include="Codeuctivity.ImageSharpCompare" Version="4.0.249" />
-    <PackageReference Include="Polyfill" Version="4.6.0" PrivateAssets="all" />
+    <PackageReference Include="Polyfill" Version="4.6.1" PrivateAssets="all" />
     <PackageReference Include="ProjectDefaults" Version="1.0.126" PrivateAssets="all" />
     <PackageReference Include="Verify" Version="24.1.0" />
   </ItemGroup>
