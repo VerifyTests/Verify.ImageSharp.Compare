@@ -4,7 +4,7 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Codeuctivity.ImageSharpCompare" Version="4.0.298" />
+    <PackageVersion Include="Codeuctivity.ImageSharpCompare" Version="4.0.306" />
     <PackageVersion Include="MarkdownSnippets.MsBuild" Version="27.0.2" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
     <PackageVersion Include="NUnit" Version="4.3.2" />
