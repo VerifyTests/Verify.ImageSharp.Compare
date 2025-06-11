@@ -11,6 +11,11 @@ Contains [comparers](https://github.com/VerifyTests/Verify/blob/master/docs/comp
 **See [Milestones](../../milestones?state=closed) for release notes.**
 
 
+## Sponsors
+
+include: zzz
+
+
 ## NuGet
 
  * https://nuget.org/packages/Verify.ImageSharp.Compare
