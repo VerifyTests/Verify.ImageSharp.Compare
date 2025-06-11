@@ -11,9 +11,9 @@ Contains [comparers](https://github.com/VerifyTests/Verify/blob/master/docs/comp
 **See [Milestones](../../milestones?state=closed) for release notes.**
 
 
-## NuGet package
+## NuGet
 
-https://nuget.org/packages/Verify.ImageSharp.Compare/
+ * https://nuget.org/packages/Verify.ImageSharp.Compare
 
 
 ## Usage
