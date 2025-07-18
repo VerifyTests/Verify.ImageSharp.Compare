@@ -4,7 +4,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/5xbq2gu1qh383r16?svg=true)](https://ci.appveyor.com/project/SimonCropp/Verify-ImageSharp-Compare)
 [![NuGet Status](https://img.shields.io/nuget/v/Verify.ImageSharp.Compare.svg)](https://www.nuget.org/packages/Verify.ImageSharp.Compare/)
 
-Extends [Verify](https://github.com/VerifyTests/Verify) to allow comparison of images via [Codeuctivity.ImageSharp.Compare](https://github.com/Codeuctivity/ImageSharp.Compare).
+Extends [Verify](https://github.com/VerifyTests/Verify) to allow comparison of images via [Codeuctivity.ImageSharp.Compare](https://github.com/Codeuctivity/ImageSharp.Compare).<!-- singleLineInclude: intro. path: /docs/intro.include.md -->
 
 Contains [comparers](https://github.com/VerifyTests/Verify/blob/master/docs/comparer.md) for png, jpg, and bmp.
 
@@ -16,9 +16,9 @@ Contains [comparers](https://github.com/VerifyTests/Verify/blob/master/docs/comp
 
 ### Entity Framework Extensions<!-- include: zzz. path: /docs/zzz.include.md -->
 
-[Entity Framework Extensions](https://entityframework-extensions.net/) is a major sponsor and is proud to contribute to the development this project.
+[Entity Framework Extensions](https://entityframework-extensions.net/?utm_source=simoncropp&utm_medium=Verify.ImageSharp.Compare) is a major sponsor and is proud to contribute to the development this project.
 
-[![Entity Framework Extensions](docs/zzz.png)](https://entityframework-extensions.net)<!-- endInclude -->
+[![Entity Framework Extensions](https://raw.githubusercontent.com/VerifyTests/Verify.ImageSharp.Compare/refs/heads/main/docs/zzz.png)](https://entityframework-extensions.net/?utm_source=simoncropp&utm_medium=Verify.ImageSharp.Compare)<!-- endInclude -->
 
 
 ## NuGet
