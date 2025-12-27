@@ -1,7 +1,7 @@
 # <img src="/src/icon.png" height="30px"> Verify.ImageSharp.Compare
 
 [![Discussions](https://img.shields.io/badge/Verify-Discussions-yellow?svg=true&label=)](https://github.com/orgs/VerifyTests/discussions)
-[![Build status](https://ci.appveyor.com/api/projects/status/5xbq2gu1qh383r16?svg=true)](https://ci.appveyor.com/project/SimonCropp/Verify-ImageSharp-Compare)
+[![Build status](https://img.shields.io/appveyor/build/SimonCropp/Verify-ImageSharp-Compare)](https://ci.appveyor.com/project/SimonCropp/Verify-ImageSharp-Compare)
 [![NuGet Status](https://img.shields.io/nuget/v/Verify.ImageSharp.Compare.svg)](https://www.nuget.org/packages/Verify.ImageSharp.Compare/)
 
 Extends [Verify](https://github.com/VerifyTests/Verify) to allow comparison of images via [Codeuctivity.ImageSharp.Compare](https://github.com/Codeuctivity/ImageSharp.Compare).<!-- singleLineInclude: intro. path: /docs/intro.include.md -->
