@@ -2,6 +2,8 @@
 
 public static class VerifyImageSharpCompare
 {
+    static HashSet<string> registeredComparers = [];
+
     public static bool Initialized { get; private set; }
 
     /// <summary>
@@ -23,6 +25,7 @@ public static class VerifyImageSharpCompare
     public static void RegisterComparers(int threshold = 5)
     {
         InnerVerifier.ThrowIfVerifyHasBeenRun();
+
         RegisterComparer(threshold, "png");
         RegisterComparer(threshold, "bmp");
         RegisterComparer(threshold, "jpg");
@@ -36,10 +39,17 @@ public static class VerifyImageSharpCompare
         settings.UseStreamComparer(
             (received, verified, _) => Compare(threshold, received, verified));
 
-    public static void RegisterComparer(int threshold, string extension) =>
+    public static void RegisterComparer(int threshold, string extension)
+    {
+        if (!registeredComparers.Add(extension))
+        {
+            return;
+        }
+
         VerifierSettings.RegisterStreamComparer(
             extension,
             (received, verified, _) => Compare(threshold, received, verified));
+    }
 
     static Task<CompareResult> Compare(int threshold, Stream received, Stream verified)
     {

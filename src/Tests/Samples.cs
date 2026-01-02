@@ -5,7 +5,7 @@ public class Samples
 
     [Test]
     public Task CompareImage() =>
-        VerifyFile("sample.jpg");
+        VerifyFile("sample1.jpg");
 
     #endregion
 }

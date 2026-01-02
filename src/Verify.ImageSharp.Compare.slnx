@@ -13,6 +13,7 @@
     <File Path="mdsnippets.json" />
     <File Path="nuget.md" />
   </Folder>
+  <Project Path="Tests.CustomThreshold/Tests.CustomThreshold.csproj" />
   <Project Path="Tests/Tests.csproj" />
   <Project Path="Verify.ImageSharp.Compare/Verify.ImageSharp.Compare.csproj" />
 </Solution>
