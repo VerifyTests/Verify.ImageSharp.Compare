@@ -1,4 +1,4 @@
-﻿[TestFixture]
+[TestFixture]
 public class Tests
 {
     [Test]
@@ -11,8 +11,7 @@ public class Tests
             {
                 await VerifyFile("sample2.jpg")
                     .DisableDiff()
-                    .UseMethodName("FailingCompareInner")
-                    .UseImageHash(85);
+                    .UseMethodName("FailingCompareInner");
             })
             .IgnoreStackTrace()
             .ScrubLinesContaining("clipboard", "DiffEngineTray");
