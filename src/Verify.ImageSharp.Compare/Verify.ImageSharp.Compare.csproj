@@ -7,6 +7,6 @@
     <PackageReference Include="Codeuctivity.ImageSharpCompare" />
     <PackageReference Include="ProjectDefaults" PrivateAssets="all" />
     <PackageReference Include="Verify" />
-    <PackageReference Include="Microsoft.Sbom.Targets" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Sbom.Targets" PrivateAssets="all" Condition="$(Configuration)=='Release'" />
   </ItemGroup>
 </Project>
