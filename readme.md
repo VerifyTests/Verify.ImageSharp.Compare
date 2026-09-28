@@ -54,7 +54,7 @@ The following will use ImageHash to compare the images instead of the default Di
 public Task CompareImage() =>
     VerifyFile("sample1.jpg");
 ```
-<sup><a href='/src/Tests/Samples.cs#L4-L10' title='Snippet source file'>snippet source</a> | <a href='#snippet-CompareImage' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Samples.cs#L3-L9' title='Snippet source file'>snippet source</a> | <a href='#snippet-CompareImage' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
 

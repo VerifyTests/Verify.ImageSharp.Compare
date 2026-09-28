@@ -1,4 +1,5 @@
-[TestFixture]
+namespace CustomThresholdTests;
+
 public class Tests
 {
     [Test]

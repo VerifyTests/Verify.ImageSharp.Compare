@@ -2,17 +2,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="NUnit" />
-    <PackageReference Include="NUnit3TestAdapter" />
-    <PackageReference Include="Verify.NUnit" />
+    <PackageReference Include="Verify.TUnit" />
+    <PackageReference Include="TUnit" />
     <PackageReference Include="Argon" />
     <PackageReference Include="DiffEngine" />
     <PackageReference Include="EmptyFiles" />
     <PackageReference Include="SimpleInfoName" />
     <PackageReference Include="Verify" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" />
     <ProjectReference Include="..\Verify.ImageSharp.Compare\Verify.ImageSharp.Compare.csproj" />
     <PackageReference Include="ProjectDefaults" PrivateAssets="all" />
     <None Update=".\sample*.*">

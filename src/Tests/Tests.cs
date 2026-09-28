@@ -1,4 +1,5 @@
-﻿[TestFixture]
+﻿namespace Tests;
+
 public class Tests
 {
     [Test]
