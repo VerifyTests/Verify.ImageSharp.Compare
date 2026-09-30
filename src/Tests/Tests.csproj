@@ -13,7 +13,6 @@
     <PackageReference Include="EmptyFiles" />
     <PackageReference Include="SimpleInfoName" />
     <PackageReference Include="Verify" />
-    <PackageReference Include="Verify.DiffPlex" />
     <ProjectReference Include="..\Verify.ImageSharp.Compare\Verify.ImageSharp.Compare.csproj" />
     <PackageReference Include="ProjectDefaults" PrivateAssets="all" />
     <None Update=".\sample*.*">
