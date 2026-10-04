@@ -4,13 +4,13 @@ public class Tests
 {
     [Test]
     public Task Working() =>
-        VerifyFile("sample1.jpg");
+        VerifyFile(ProjectFiles.sample1_jpg.Path);
 
     [Test]
     public Task FailingCompare() =>
         ThrowsTask(async () =>
             {
-                await VerifyFile("sample2.jpg")
+                await VerifyFile(ProjectFiles.sample2_jpg.Path)
                     .DisableDiff()
                     .UseMethodName("FailingCompareInner")
                     .UseImageHash(85);
